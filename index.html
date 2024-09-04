@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: skyblue;
+            font-size: 30px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        header {
+            background-color: white;
+            padding: 40px;
+        }
+        header h1 {
+            font-size: 100px;
+            text-align: center;
+        }
+        main {
+            flex-grow: 1;
+            padding: 20px;
+            position: relative;
+        }
+
+        footer {
+            background-color: white;
+            text-align: center;
+            padding: 20px;
+            color: blue;
+        }
+
+        .logo{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SMA St. Paulus</h1>
+    </header>
+    <main>
+        <div class="contain">
+            <h1>Home</h1>
+            <h1>Profile</h1>
+            <h1>Data Siswa</h1>
+        </div>
+
+        <div class="logo">
+
+            <img src="logo-paulus.png">
+        </div>
+
+    </main>
+
+    <footer>
+        <h1>Sekali Santo Paulus Tetap Santo Paulus</h1>
+    </footer>
+</body>
+</html>
